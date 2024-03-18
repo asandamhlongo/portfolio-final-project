@@ -1,4 +1,8 @@
-
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 * {
     margin: 0;
     padding: 0;
@@ -21,10 +25,10 @@
 }
 
 .logo {
-    font-size: 20px;
-    color: black;
+    font-size: 25px;
+    color: purple;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 550;
 }
 
 .navbar {
