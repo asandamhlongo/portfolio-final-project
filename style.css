@@ -62,3 +62,19 @@ a:before {
 a:hover:before {
     width: 100%;
 }
+.button {
+    padding: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+    background-color: white;
+    color: var(--primary-color);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary-color);
+    border-radius: 8px;
+}
+button:hover {
+    color: white;
+    background-color: var(--primary-color);
+    transition: all 200ms ease;
+}
