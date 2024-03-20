@@ -13,15 +13,33 @@
 
 <body>
     <header class="header">
-        <h2 class="logo">Asanda</h2>
-        
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About me</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact me</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <h2 class="logo">Asanda Mhlongo</h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item" id="home">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+    <div class="main-container">
     <section class="section">
         <div class="section-container">
             <div class="content">
@@ -33,14 +51,19 @@
                     Welcome to my front-end developer portfolio! I'm Asanda, a skilled and creative front-end developer with a passion for creating beautiful, 
                     responsive, and user-friendly websites. I've worked on a variety web projects, ranging from weather app to a fully functional calculator.
                 </p>
+                <div class="buttons">
+                <button class="button">Download CV</button>
                 <button class="button">Hire me</button>
+                </div>
             </div>
         </div>
-        <div class="image">
+        </section>
+    <div class="image">
             <img src="images/profile.jpg" alt="profile">
         </div>
+    </div>
 
-    </section>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
