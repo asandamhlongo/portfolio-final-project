@@ -11,23 +11,36 @@
 
 @media (max-width: 900px) {
 
-    #home {
-        padding: 0%;
-    }
-    
     .container {
         width: 90%;
         grid-template-columns: 1fr;
     }
 
-    .image {
+    a:hover {
+        background-color: var(--secondary-color);
+        text-decoration: none;
+    }
+
+    a:hover:before {
+        text-decoration: none;
+    }
+
+    .nav-item .nav-link {
+        text-decoration: none;
+    }
+
+    .img-fluid {
         width: 70%;
         margin: 0 auto;
-        margin-top: 35px;
+    
     }
 
     .row {
         text-align: center;
+        margin-top: 20px;
+    }
+
+    .content {
         margin-top: 35px;
     }
 
@@ -46,6 +59,9 @@
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    background-color: var(--secondary-color);
+}
 .header {
     position: fixed;
     top: 0;
@@ -108,11 +124,7 @@ a:hover:before {
     width: 100%;
 }
 
-.main-container {
-    background-color: var(--secondary-color);
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .section-container {
     min-height: 100vh;
@@ -123,11 +135,7 @@ a:hover:before {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 .subtitle {
     letter-spacing: 2px;
@@ -177,8 +185,13 @@ button:hover {
     margin-left: 20px;
 }
 
-.image img {
+.img-fluid {
     border-radius: 50%;
+}
+
+.row {
+    margin: 30px;
+    margin-top: 200px;
 }
 
 
