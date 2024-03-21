@@ -332,6 +332,23 @@ textarea:valid~label {
     font-size: 14px;
 }
 
+.contact-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-me-container,
+ .contact-me,
+ .icon, 
+ .topic {
+    text-align: center;
+}
+
+
+
+
+
 
 
 
