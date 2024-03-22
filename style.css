@@ -179,12 +179,25 @@ a:hover {
     margin-bottom: 2rem;
 }
 
-.button {
+#download-cv {
     padding: 10px;
     padding-left: 23px;
     padding-right: 23px;
-    background-color: white !important;
-    color: var(--primary-color) !important;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary-color);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+}
+
+#hire-me {
+    padding: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+    background-color: white;
+    color: var(--primary-color);
     border-style: solid;
     border-width: 1px;
     border-color: var(--primary-color);
@@ -195,16 +208,15 @@ a:hover {
 a {
     text-decoration: none;
 }
-button:hover {
+#download-cv:hover {
+    color: var(--primary-color);
+    background-color: #fff;
+    transition: all 200ms ease;
+}
+#hire-me:hover {
     color: white;
     background-color: var(--primary-color);
     transition: all 200ms ease;
-}
-
-#hire-me-btn {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 20px;
 }
 
 .img-fluid {
